@@ -1,0 +1,55 @@
+@media only screen and (max-width: 600px) {
+    .container-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+    }
+    .logo {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .nawigacja {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .naglowek {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .box1{
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+    .box2{
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+    .sekcja{
+        grid-column: 1/2;
+        grid-row: 6/7;
+
+    }
+    .kontakt-t {
+        grid-column: 1/2;
+        grid-row: 7/8;
+    
+    }
+    .kontakt-tekst{
+        grid-column: 1/2;
+        grid-row: 8/9;
+
+    }
+    .kontakt-mapa{
+        grid-column: 1/2;
+        grid-row: 9/10;
+    }
+    .formularz{
+        grid-column: 1/2;
+        grid-row: 10/11;
+    }
+    .stopka{
+        grid-column: 1/2;
+        grid-row: 11/12;
+    }
+
+}
